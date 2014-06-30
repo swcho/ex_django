@@ -56,7 +56,7 @@ SESSION_COOKIE_AGE = 60 * 60 * 24 * SESSION_COOKIE_DAYS
 
 # If you set this to False, Django will make some optimizations so as not
 # to load the internationalization machinery.
-USE_I18N = False
+USE_I18N = True
 
 # Absolute path to the directory that holds media.
 # Example: "/home/media/media.lawrence.com/"
@@ -73,7 +73,7 @@ MEDIA_URL = '/static/'
 ADMIN_MEDIA_PREFIX = '/static/admin_media/'
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = ''
+SECRET_KEY = '2rj=af^knvmwxy3+vbyzdv_@&bk=fq)-)^9swjiciyobb)-g6-'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
